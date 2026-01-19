@@ -1,0 +1,108 @@
+
+/* ===========Normalize=========== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* =============Variables============ */
+
+:root{
+    --primary-color: #fffff;
+    --secondary-color: #fff;
+}
+/* =============Base and layout styles=============== */
+
+body{
+  font-family:"Inter",sans-serif;
+  background: #fff;
+  color: #0000;
+  line-height:1.5;
+}
+
+.container{
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:0 20px;
+}
+/* ==========Components(Reusable Components)=========== */
+/* button */
+
+.btn{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    gap:.5rem;
+    padding:10px 20px;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: .3s eas;
+    font-weight:600;
+
+    background-color: aliceblue;
+    color: antiquewhite;
+}
+.btn:hover{
+    background-color: aqua;
+    color: #fff;
+    box-shadow: 0 0 10px red;
+}
+/* card */
+
+.card{
+  background:white;
+  padding:20px;
+  border: 1px solid navy;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+
+  display:flex;
+  flex-flow:column wrap;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+/* ===========main body============== */
+
+/* header part */
+
+/* navigation bar */
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 20px 0;
+}
+
+.nav-menu{
+  display:flex;
+  list-style:none;
+  gap:1.5rem;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    background-color: azure;
+    color: aqua;
+}
+.nav-menu a:hover{
+  color:var(--primary);
+  cursor:pointer;
+}
+
+
+
+/* ==========Media queries=========== */
+
+@media screen and (min-width: 768px ) {
+    
+}
+@media screen and (min-width: 992px ) {
+    
+}
+@media screen and (min-width: 1200px ) {
+    
+}
