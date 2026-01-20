@@ -23,6 +23,13 @@ body{
 /* ==========Components(Reusable Components)=========== */
 /* button */
 
+.btn-box{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+}
 .btn{
   background-image: linear-gradient(to right, #f7cf4d, #DB489F, #9500f6);
     border: none;
@@ -125,7 +132,17 @@ body{
 }
 /* ==============Main Part================= */
 /* hero section */
-
+.hero-bg{
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+}
+.hero{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 
 /* Featured Part */
 
