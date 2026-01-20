@@ -94,12 +94,38 @@ body{
 }
 /* ==============Main Part================= */
 
+/* Featured Part */
+
+.featured{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.feature-card{
+  display: flex;
+  flex-flow: row wrap;
+
+  width: 100%;
+  height: auto;
+
+}
+.feature-card-box1{
+  flex: 1 1 calc(33.333% -2rem);
+}
+.feature-card-box2{
+  flex: 1 1 calc(33.333% -2rem);
+}
+.feature-card-box3{
+  flex: 1 1 calc(33.333% -2rem);
+}
 
 /* Meet the Host */
 
 .meet-the-host{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -115,7 +141,7 @@ body{
   background-color: #250E44;
   border: none;
   border-radius: 10px;
-  padding: 20px 10px;
+  padding: 40px 20px;
 
   margin-bottom: 40px;
 }
@@ -123,7 +149,7 @@ body{
   width: calc(20% -1rem);
 }
 .card-meet-box{
-  width: calc(80%);
+  width: 80%;
 
   display: flex;
   flex-flow: column wrap;
@@ -131,7 +157,12 @@ body{
   align-items: flex-start;
   gap: 1rem;
 }
-.card-meet-social il{
+.card-meet-social{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+.card-meet-social li{
   background-color: #1A0B2E;
   padding: 15px;
   border: 1px solid #35175e;
