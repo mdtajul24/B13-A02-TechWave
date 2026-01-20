@@ -7,16 +7,16 @@
 }
 /* =============Variables============ */
 
-:root{
+/* :root{
     --primary-color: #fffff;
     --secondary-color: #fff;
-}
+} */
 /* =============Base and layout styles=============== */
 
 body{
   font-family:"Inter",sans-serif;
-  background: #fff;
-  color: #0000;
+  background: #1A0B2E;
+  color: #FFFFFF;
   line-height:1.5;
 }
 
@@ -91,6 +91,52 @@ body{
 .nav-menu a:hover{
   color:var(--primary);
   cursor:pointer;
+}
+
+
+/* ===============Footer Part============== */
+
+.footer{
+  width: 100%;
+  height: auto;
+  background-image: url(../images/footer-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+.footer-box{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+}
+.f-heading{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.f-span{
+  background-image: linear-gradient(to right, #FB6741, #DB489F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-social-media{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+
+  list-style: none;
+  padding: 10px;
+}
+.footer-social-media li{
+  display: flex;
+  flex-flow: row wrap;
+  gap: .5rem;
 }
 
 
