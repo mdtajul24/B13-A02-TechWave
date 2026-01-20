@@ -92,9 +92,52 @@ body{
   color:var(--primary);
   cursor:pointer;
 }
+/* ==============Main Part================= */
 
 
-/* ===============Footer Part============== */
+/* Meet the Host */
+
+.meet-the-host{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+.card-meet{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  background-color: #250E44;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 10px;
+
+  margin-bottom: 40px;
+}
+.img{
+  width: calc(20% -1rem);
+}
+.card-meet-box{
+  width: calc(80%);
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.card-meet-social il{
+  background-color: #1A0B2E;
+  padding: 15px;
+  border: 1px solid #35175e;
+  border-radius: 50%;
+}
+  /* ===============Footer Part============== */
 
 .footer{
   width: 100%;
