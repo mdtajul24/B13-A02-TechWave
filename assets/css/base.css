@@ -171,7 +171,26 @@ body{
   gap: 1rem;
   margin-top: 50px;
 }
+.podcast{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 
+  margin: 3rem;
+  height: auto;
+}
+.counter{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.counter-box h1{
+  color: #00FF88;
+}
 /* Featured Part */
 
 .featured{
