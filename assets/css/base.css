@@ -133,15 +133,43 @@ body{
 /* ==============Main Part================= */
 /* hero section */
 .hero-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  width: 100%;
+  height: 60vh;
   background-image: url(../images/hero-bg.png);
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-clip: padding-box;
 }
-.hero{
+.new{
+  position: absolute;
+  left: 60%;
+  top: 20%;
+
+  background-color: #00FF88;
+  color: #1A0B2E;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 15px;
+}
+.img1{
+  width: 300px;
+  height: auto;
+}
+.img2{
+  position: absolute;
+}
+.hero-text{
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 50px;
 }
 
 /* Featured Part */
