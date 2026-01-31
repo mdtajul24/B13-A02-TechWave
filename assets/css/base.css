@@ -1,5 +1,6 @@
 
 /* ===========Normalize=========== */
+
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +22,8 @@ body{
   padding:0 20px;
 }
 /* ==========Components(Reusable Components)=========== */
-/* button */
+
+/* ==button== */
 
 .btn-box{
   display: flex;
@@ -85,7 +87,7 @@ body{
     color: #fff;
     box-shadow: 0 0 10px red;
 }
-/* card */
+/* ==card== */
 
 .card{
   background:white;
@@ -101,6 +103,7 @@ body{
   gap:1rem;
 }
 /* =============header part=============== */
+
 .header{
   padding: 20px 100px;
 }
@@ -130,8 +133,11 @@ body{
   background-color: transparent;
   cursor: pointer;
 }
+
 /* ==============Main Part================= */
-/* hero section */
+
+/* ==hero section== */
+
 .hero-bg{
   display: flex;
   justify-content: center;
@@ -195,7 +201,8 @@ body{
 .counter-box h1{
   color: #00FF88;
 }
-/* Why choose part */
+
+/* ==Why choose part== */
 
 .choose{
   display: flex;
@@ -239,7 +246,8 @@ body{
 .choose-box4{
   grid-column: 1 / span 2;
 }
-/* Featured Part */
+
+/* ==Featured Part== */
 
 .featured{
   display: flex;
@@ -299,8 +307,11 @@ body{
   justify-content: center;
   align-items: center;
   gap: 1rem;
+
+  color: #00FF88;
 }
-/* Meet the Host */
+
+/* ==Meet the Host== */
 
 .meet-the-host{
   display: flex;
@@ -393,7 +404,6 @@ body{
   flex-flow: row wrap;
   gap: .5rem;
 }
-
 
 
 /* ==========Media queries=========== */
