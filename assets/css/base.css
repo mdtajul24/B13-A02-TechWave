@@ -198,11 +198,18 @@ body{
 /* Why choose part */
 
 .choose{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+.choose-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 1.5rem;
-
+  gap: 2rem;
 }
 .heading{
   margin: 0 auto;
@@ -217,7 +224,8 @@ body{
 
   background-color: #35175e;
   border-radius: 15px;
-  padding: 20px;
+  padding: 1.5rem;
+  width: 100%;
 }
 .choose-box1{
   grid-row: 1 / span 2;
