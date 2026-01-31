@@ -133,6 +133,9 @@ body{
   background-color: transparent;
   cursor: pointer;
 }
+.m-hamburger{
+  display: none;
+}
 
 /* ==============Main Part================= */
 
@@ -188,9 +191,8 @@ body{
   height: auto;
 }
 .counter{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   gap: 4rem;
 
@@ -409,13 +411,23 @@ body{
 /* ==========Media queries=========== */
 
 @media screen and (max-width: 768px ) {
-  ul .nav-list{
-    visibility: hidden;
+  .nav-list{
+    display: none;
   }
-  button btn{
-    visibility: hidden;
+  .hidden{
+    display: none;
   }
-    
+  .m-hamburger{
+    display: block;
+  }
+  .counter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .choose-grid{
+    width: 100%;
+  }
 }
 @media screen and (min-width: 992px ) {
     
